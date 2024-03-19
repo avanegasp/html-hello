@@ -1,14 +1,15 @@
 * {
-	border: 1px dashed red;
+	border: 1px solid black;
 	min-height: 10px;
 }
 
 body{
-    background-color: pink;
+    background-color: #F1EDEC;
 }
 
 #wrapper{
     display: flex;
+    background: white;
 }
 
 header {
@@ -18,12 +19,12 @@ header {
 
 .secondWrapper{
     position: absolute;
-    top: 12%;
+    flex-direction: column;
     left: 20%;
     right: 20%;
 }
 
-.imageWrapper{
+.imageWrapper, .thirdImageWrapper{
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -34,28 +35,26 @@ img{
     object-fit: cover;
 }
 
-.secondParagraph{
+.secondParagraph, .thirdParagraph{
     display: flex;
+    background: white;
+    margin-top: 50px;
 }
 
-.paragraphNumber{
+.paragraphNumber, .thirdParagraphNumber{
     margin-left: auto;
 }
 
-.textWrapper{
+.textWrapper, .thirdTextWrapper{
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    background: white;
+    margin-bottom: 30px;
+    width: 100%;
 }
 
-/**/
-
-/*
-
-.thirdWrapper{
+.principalWrapper{
     display: flex;
     flex-direction: column;
-
 }
 
-*/
+
