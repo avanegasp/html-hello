@@ -1,6 +1,5 @@
 * {
-	border: 1px solid black;
-	min-height: 10px;
+    margin: 0px;
 }
 
 body{
@@ -14,17 +13,38 @@ body{
 
 header {
     text-align: center;
-    width: 100%;
+    width: 84%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .secondWrapper{
     position: absolute;
     flex-direction: column;
-    left: 20%;
-    right: 20%;
+    left: 30%;
+    right: 30%;
 }
 
-.imageWrapper, .thirdImageWrapper{
+.firstParagraph{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.firstParagraph p{
+    margin-left: 20px;
+}
+
+.paragraphNumber p{
+    margin-right: 20px;
+    color: grey;
+}
+
+.paragraphNumber{
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.imageWrapper{
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -35,26 +55,21 @@ img{
     object-fit: cover;
 }
 
-.secondParagraph, .thirdParagraph{
+.secondParagraph{
     display: flex;
     background: white;
     margin-top: 50px;
 }
 
-.paragraphNumber, .thirdParagraphNumber{
-    margin-left: auto;
-}
-
-.textWrapper, .thirdTextWrapper{
-    text-align: center;
+.textWrapper{
+    text-align: justify;
     background: white;
-    margin-bottom: 30px;
-    width: 100%;
+    padding: 15px 35px 15px 35px;
+    line-height: 1.5;
 }
 
-.principalWrapper{
-    display: flex;
-    flex-direction: column;
+p {
+    font-family: "Finger Paint", sans-serif;
 }
 
 
