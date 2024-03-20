@@ -13,9 +13,10 @@ body{
 
 header {
     text-align: center;
-    width: 84%;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .secondWrapper{
